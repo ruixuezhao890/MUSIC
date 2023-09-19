@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="my_libarary" targetName="my_libarary.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef7e5bc9-df2a-4e05-9f50-7380407fde24" name="更改" comment="first commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.5" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2TpeWTLfmoQsEk0WwJyx51xIpeP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/CODE/stm32/23 years of competition/Music",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.cidr.embedded.config",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE\stm32\23 years of competition\Music\HALRES" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\BSP" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\Format_analysis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\stm32\23 years of competition\Music\MyLibrary\Inc" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\MyLibrary\Src" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\MyApplication\Inc" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\MyApplication\Src" />
+      <recent name="D:\CODE\stm32\23 years of competition\Music\MyLibrary" />
+    </key>
+  </component>
+  <component name="RtosSettings">
+    <option name="rtosEnabled" value="true" />
+    <option name="rtosType" value="FreeRTOS" />
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD my_libarary">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my_libarary.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="my_libarary" TARGET_NAME="my_libarary.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="my_libarary" RUN_TARGET_NAME="my_libarary.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD my_libarary" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="my_libarary" TARGET_NAME="my_libarary.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="my_libarary" RUN_TARGET_NAME="my_libarary.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/0_STM32F407ZG_StLink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.my_libarary.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD my_libarary" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ef7e5bc9-df2a-4e05-9f50-7380407fde24" name="更改" comment="" />
+      <created>1691744480935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691744480935</updated>
+      <workItem from="1691744506753" duration="5378000" />
+      <workItem from="1691900603758" duration="3449000" />
+      <workItem from="1691976252507" duration="9411000" />
+      <workItem from="1692000679886" duration="5669000" />
+      <workItem from="1692065674913" duration="16536000" />
+      <workItem from="1692142938911" duration="19049000" />
+      <workItem from="1692227903361" duration="28748000" />
+      <workItem from="1692318597343" duration="20057000" />
+      <workItem from="1692371015711" duration="4846000" />
+      <workItem from="1692376569853" duration="6000" />
+      <workItem from="1692384037310" duration="789000" />
+      <workItem from="1692409339133" duration="1453000" />
+      <workItem from="1692420080399" duration="2599000" />
+      <workItem from="1692491689067" duration="97000" />
+      <workItem from="1692574289556" duration="34420000" />
+      <workItem from="1692859871126" duration="7443000" />
+      <workItem from="1692930998927" duration="12932000" />
+      <workItem from="1693052488603" duration="4994000" />
+      <workItem from="1693230488666" duration="9667000" />
+      <workItem from="1693271483092" duration="16392000" />
+      <workItem from="1693353865593" duration="9092000" />
+      <workItem from="1693400896262" duration="611000" />
+      <workItem from="1693467528043" duration="16000" />
+      <workItem from="1693467552767" duration="11107000" />
+      <workItem from="1693537922490" duration="27239000" />
+      <workItem from="1693616995178" duration="467000" />
+      <workItem from="1693617738926" duration="126000" />
+      <workItem from="1693617921146" duration="16253000" />
+      <workItem from="1693655851058" duration="1411000" />
+      <workItem from="1693706694414" duration="14894000" />
+      <workItem from="1693744832718" duration="5927000" />
+      <workItem from="1693790948839" duration="19723000" />
+      <workItem from="1693831184511" duration="3898000" />
+      <workItem from="1693894221334" duration="53000" />
+      <workItem from="1693894302339" duration="1081000" />
+      <workItem from="1693901356097" duration="66000" />
+      <workItem from="1693901436660" duration="82000" />
+      <workItem from="1693901534430" duration="8282000" />
+      <workItem from="1693962918000" duration="93000" />
+      <workItem from="1693967338053" duration="132000" />
+      <workItem from="1693967483107" duration="334000" />
+      <workItem from="1693988848299" duration="1926000" />
+      <workItem from="1693990824150" duration="2472000" />
+      <workItem from="1694404718035" duration="2538000" />
+      <workItem from="1694407518274" duration="726000" />
+      <workItem from="1694408451623" duration="7774000" />
+      <workItem from="1694435203425" duration="5617000" />
+      <workItem from="1694502566610" duration="15793000" />
+      <workItem from="1694565428805" duration="26326000" />
+      <workItem from="1694658037475" duration="12211000" />
+      <workItem from="1694759383534" duration="4960000" />
+      <workItem from="1694764740353" duration="14227000" />
+      <workItem from="1694825569480" duration="34314000" />
+      <workItem from="1694913673556" duration="13399000" />
+      <workItem from="1694995631136" duration="8980000" />
+      <workItem from="1695006194185" duration="701000" />
+      <workItem from="1695018416902" duration="13070000" />
+      <workItem from="1695102138336" duration="5819000" />
+      <workItem from="1695130315852" duration="735000" />
+    </task>
+    <task id="LOCAL-00001" summary="增添GPIO可以设置硬件复用引脚的功能">
+      <created>1692732846083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692732846083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="代码再次初始化SPI">
+      <created>1692931070672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692931070672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加oled">
+      <created>1693388825099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693388825099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加增加key">
+      <created>1693488503120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693488503120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加增加key">
+      <created>1693574787475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693574787475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加lvgl图形库">
+      <created>1693640479006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693640479006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加lvgl图形库,并且将LVGL版本由8.0升级至8.3，增加c++对LVGL的包装器函数">
+      <created>1693833043322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693833043322</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加lvgl图形库,并且将LVGL版本由8.0升级至8.3，增加c++对LVGL的包装器函数">
+      <created>1693836776074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693836776074</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1695131367843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695131367843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="增添GPIO可以设置硬件复用引脚的功能" />
+    <MESSAGE value="代码再次初始化SPI" />
+    <MESSAGE value="增加oled" />
+    <MESSAGE value="增加增加key" />
+    <MESSAGE value="增加lvgl图形库" />
+    <MESSAGE value="增加lvgl图形库,并且将LVGL版本由8.0升级至8.3，增加c++对LVGL的包装器函数" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lvvglpp/src/lvglpp/core/indev.h</url>
+          <line>24</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</url>
+          <line>161</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="buff" />
+        <watch expression="it-&gt;second-&gt;button_level" />
+        <watch expression="I2S2_TXDMA_Handler" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

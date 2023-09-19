@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="my_libarary"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_libarary.elf">
+				<Option output="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/my_libarary.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/HALRES/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/FATFS/Target"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/FATFS/App"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Format_analysis"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVppDisplayer"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/MyApplication/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/BSP/touch"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/BSP"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LCD"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/other_library"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/ConnectingBridge/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Core/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_libarary.elf"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_libarary.elf/fast">
+				<Option output="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/my_libarary.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/HALRES/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/FATFS/Target"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/FATFS/App"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Format_analysis"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVppDisplayer"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL/src"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/MyApplication/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/BSP/touch"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/BSP"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/LCD"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/other_library"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/ConnectingBridge/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Core/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_libarary.elf/fast"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CODE/stm32/23 years of competition/Music/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/stm32/23 years of competition/Music/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/delay.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/delay.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/malloc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/malloc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/myiicZD.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/myiicZD.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/sys.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/sys.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/24cxx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/24cxx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/ctiic.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/ctiic.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/ft5206.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/ft5206.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/gt9xxx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/gt9xxx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/touch.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/BSP/touch/touch.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/ConnectingBridge/Src/Startup.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/fsmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/i2s.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/main.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/sdio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/stm32f4xx_it.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Inc/usart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/dma.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/fsmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/i2s.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/main.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/sdio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/stm32f4xx_it.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/syscalls.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/sysmem.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/system_stm32f4xx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/tim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Src/usart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Core/Startup/startup_stm32f407zgtx.s">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/CMSIS/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/App/fatfs.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/App/fatfs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/bsp_driver_sd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/bsp_driver_sd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/fatfs_platform.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/fatfs_platform.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/ffconf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/sd_diskio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/FATFS/Target/sd_diskio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Format_analysis/DocumentAnalysis.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Format_analysis/DocumentAnalysis.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Format_analysis/WM8978.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Format_analysis/WM8978.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LCD/lcd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LCD/lcd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_disp_template.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_disp_template.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_fs_template.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_fs_template.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_indev_template.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/examples/porting/lv_port_indev_template.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/lv_conf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/lvgl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_core.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_disp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_disp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_event.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_event.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_group.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_group.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_indev.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_indev.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_indev_scroll.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_indev_scroll.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_class.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_class.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_draw.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_draw.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_pos.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_pos.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_scroll.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_scroll.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_style.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_style.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_style_gen.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_style_gen.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_tree.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_obj_tree.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_refr.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_refr.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_theme.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/core/lv_theme.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/arm2d/lv_draw_arm2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/arm2d/lv_gpu_arm2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/arm2d/lv_gpu_arm2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_img.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_label.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_label.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_layer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_line.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_mask.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_mask.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_transform.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_transform.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_triangle.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_draw_triangle.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_buf.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_buf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_cache.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_cache.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_decoder.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/lv_img_decoder.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/lv_draw_nxp.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/lv_gpu_nxp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/lv_gpu_nxp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/nxp/vglite/lv_gpu_nxp_vglite.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/README.md">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_bg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_composite.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_composite.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_img.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_label.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_layer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_mask.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_mask.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_priv.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_utils.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sdl/lv_draw_sdl_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_dither.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_dither.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_gradient.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_gradient.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_letter.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_polygon.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/sw/lv_draw_sw_transform.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/README.md">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/layouts/flex/lv_flex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/layouts/flex/lv_flex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/layouts/grid/lv_grid.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/layouts/grid/lv_grid.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/layouts/lv_layouts.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/bmp/lv_bmp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/bmp/lv_bmp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/freetype/arial.ttf">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/freetype/lv_freetype.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/freetype/lv_freetype.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/fsdrv/lv_fsdrv.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/gif/gifdec.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/gif/gifdec.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/gif/lv_gif.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/gif/lv_gif.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/lv_libs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/png/lodepng.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/png/lodepng.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/png/lv_png.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/png/lv_png.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/qrcode/lv_qrcode.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/qrcode/lv_qrcode.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/qrcode/qrcodegen.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/qrcode/qrcodegen.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/rlottie/lv_rlottie.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/rlottie/lv_rlottie.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/sjpg/lv_sjpg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/sjpg/lv_sjpg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/sjpg/tjpgd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/sjpg/tjpgd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/libs/sjpg/tjpgdcnf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/lv_extra.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/lv_extra.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/lv_extra.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/fragment/README.md">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/fragment/lv_fragment.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/fragment/lv_fragment.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/fragment/lv_fragment_manager.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/gridnav/lv_gridnav.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/gridnav/lv_gridnav.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/ime/lv_ime_pinyin.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/ime/lv_ime_pinyin.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/imgfont/lv_imgfont.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/imgfont/lv_imgfont.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/lv_others.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/monkey/lv_monkey.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/monkey/lv_monkey.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/msg/lv_msg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/msg/lv_msg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/snapshot/lv_snapshot.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/others/snapshot/lv_snapshot.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/basic/lv_theme_basic.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/basic/lv_theme_basic.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/default/lv_theme_default.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/default/lv_theme_default.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/lv_themes.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/mono/lv_theme_mono.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/themes/mono/lv_theme_mono.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/animimg/lv_animimg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/animimg/lv_animimg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/chart/lv_chart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/chart/lv_chart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/keyboard/lv_keyboard.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/keyboard/lv_keyboard.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/led/lv_led.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/led/lv_led.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/list/lv_list.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/list/lv_list.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/lv_widgets.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/menu/lv_menu.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/menu/lv_menu.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/meter/lv_meter.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/meter/lv_meter.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/msgbox/lv_msgbox.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/msgbox/lv_msgbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/span/lv_span.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/span/lv_span.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/spinbox/lv_spinbox.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/spinbox/lv_spinbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/spinner/lv_spinner.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/spinner/lv_spinner.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/tabview/lv_tabview.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/tabview/lv_tabview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/tileview/lv_tileview.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/tileview/lv_tileview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/win/lv_win.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/extra/widgets/win/lv_win.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/korean.ttf">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_fmt_txt.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_fmt_txt.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_loader.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_loader.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_10.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_12.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_12_subpx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_14.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_16.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_18.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_20.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_22.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_24.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_26.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_28.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_28_compressed.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_30.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_32.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_34.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_36.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_38.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_40.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_42.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_44.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_46.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_48.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_montserrat_8.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_simsun_16_cjk.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_unscii_16.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_font_unscii_8.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/font/lv_symbol_def.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_disp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_disp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_indev.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_indev.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_tick.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/hal/lv_hal_tick.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/lv_api_map.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/lv_conf_internal.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/lv_conf_kconfig.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/lvgl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_anim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_anim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_anim_timeline.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_anim_timeline.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_area.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_area.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_assert.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_async.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_async.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_bidi.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_bidi.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_color.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_color.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_fs.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_fs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_gc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_gc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_ll.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_ll.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_log.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_log.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_lru.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_lru.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_math.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_math.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_mem.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_mem.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_misc.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_printf.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_printf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_style.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_style.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_style_gen.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_style_gen.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_templ.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_templ.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_timer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_timer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_tlsf.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_tlsf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_txt.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_txt.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_txt_ap.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_txt_ap.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_types.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_utils.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/misc/lv_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_bar.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_bar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_btn.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_btn.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_btnmatrix.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_btnmatrix.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_canvas.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_canvas.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_checkbox.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_checkbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_dropdown.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_dropdown.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_img.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_label.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_label.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_line.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_objx_templ.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_objx_templ.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_roller.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_roller.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_slider.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_slider.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_switch.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_switch.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_table.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_table.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_textarea.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_textarea.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVGL/src/widgets/lv_widgets.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVppDisplayer/IncludeLvpp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVppDisplayer/LVppDisplayer.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/LVppDisplayer/LVppDisplayer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyApplication/Src/MusicPlay.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/Flash.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyGPIO.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyI2SIT.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyI2s.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyIIc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyKey.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyLCD.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MySPI.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/MyUsart.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/inputStream.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/MyLibrary/Src/outputStream.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/STM32F407ZGTX_FLASH.ld">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/display.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/display.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/event.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/event.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/group.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/group.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/indev.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/indev.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/object.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/object.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/theme.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/core/theme.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/desc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/desc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/image.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/image.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/mask.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/draw/mask.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/font/font.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/font/font.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/anim.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/anim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/area.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/area.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/color.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/color.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/fs.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/fs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/style.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/style.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/timer.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/misc/timer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/animimg/animimg.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/animimg/animimg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/arc/arc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/arc/arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/bar/bar.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/bar/bar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/btnmatrix/btnmatrix.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/btnmatrix/btnmatrix.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/calendar/calendar.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/calendar/calendar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/canvas/canvas.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/canvas/canvas.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/chart/chart.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/chart/chart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/checkbox/checkbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/checkbox/checkbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/colorwheel/colorwheel.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/colorwheel/colorwheel.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/dropdown/dropdown.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/dropdown/dropdown.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/image/image.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/image/image.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/imgbtn/imgbtn.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/imgbtn/imgbtn.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/keyboard/keyboard.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/keyboard/keyboard.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/label/label.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/label/label.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/led/led.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/led/led.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/line/line.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/line/line.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/list/list.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/list/list.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/menu/menu.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/menu/menu.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/meter/meter.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/meter/meter.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/msgbox/msgbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/msgbox/msgbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/roller/roller.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/roller/roller.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/slider/slider.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/slider/slider.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/span/span.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/span/span.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/spinbox/spinbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/spinbox/spinbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/spinner/spinner.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/spinner/spinner.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/table/table.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/table/table.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/tabview/tabview.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/tabview/tabview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/textarea/textarea.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/textarea/textarea.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/tileview/tileview.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/tileview/tileview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/win/win.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/lvvglpp/src/lvglpp/widgets/win/win.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/other_library/WString.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/other_library/WString.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/other_library/stdlib_noniso.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/other_library/stdlib_noniso.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/stm32/23 years of competition/Music/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
